@@ -1,6 +1,7 @@
 import { Link, Outlet} from 'react-router-dom';
 const UsersNavbar = () => {
     return (
+       
         <div className="max-w-4xl mx-auto p-6">
             <header className="bg-gray-700 py-4 rounded-t-lg">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -30,6 +31,7 @@ const UsersNavbar = () => {
                 <Outlet  />
             </div>
         </div>
+    
     );
 };
 

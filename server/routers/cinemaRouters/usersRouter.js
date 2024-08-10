@@ -29,6 +29,7 @@ router.post("/", auth, async (req, res) => {
  
     try {
       const obj = req.body;
+      console.log(obj)
       const user = await usersBLL.createUser(obj);
       res.json(user);
     } catch (e) {

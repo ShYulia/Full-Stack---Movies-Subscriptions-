@@ -16,7 +16,7 @@ const createNewPassword = async (data) => {
 const createUser = async (obj) => {
     const newUser = {
         username: obj.username,
-        password: obj.username,
+        password: "",
         role: obj.role
     };
 
