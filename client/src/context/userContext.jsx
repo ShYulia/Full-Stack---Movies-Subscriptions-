@@ -4,17 +4,7 @@ import axios from 'axios';
 export const UserContext = createContext();
 
 export const UserProvider = ({ children }) => {
-  // const [isLoggedIn, setIsLoggedIn] = useState(false);
-  // const [user, setUser] = useState(() => {
-  //   // Check sessionStorage for user data
-  //   const storedUser = sessionStorage.getItem('user');
-  //   return storedUser ? JSON.parse(storedUser) : { id: '', permissions: [] };
-  // });
-  
-  // useEffect(() => {
-  //   // Update sessionStorage whenever the user state changes
-  //   sessionStorage.setItem('user', JSON.stringify(user));
-  // }, [user]);
+ 
 
     const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState()
